@@ -44,7 +44,7 @@
                     <div class="icon_box" item-start>
                         <img src="assets/imgs/ic_person.png">
                     </div>
-                    <ion-input type="text" placeholder="{{'full_name' | translate}}" ngModel name="fullname" required></ion-input>
+                    <ion-input type="text" placeholder="Merchant Name" ngModel name="fullname" required></ion-input>
                 </ion-item>
                 <ion-item>
                     <div class="icon_box" item-start>
@@ -62,7 +62,7 @@
                     <div class="icon_box" item-start>
                         <img src="assets/imgs/ic_password.png">
                     </div>
-                    <ion-input type="password" placeholder="{{'password' | translate}}" ngModel name="password" required minlength="6"></ion-input>
+                    <ion-input type="password" placeholder="{{'password' | translate}}" ngModel name="password" required></ion-input>
                 </ion-item>
                 <!-- <ion-item>
                     <div class="icon_box" item-start>
@@ -74,13 +74,13 @@
                     <div class="icon_box" item-start>
                         <img src="assets/imgs/ic_password.png">
                     </div>
-                    <ion-input type="text" placeholder="{{'account_number' | translate}}" ngModel name="account_no" required minlength="6"></ion-input>
+                    <ion-input type="text" placeholder="{{'account_number' | translate}}" ngModel name="account_no" required></ion-input>
                 </ion-item>  
                 <ion-item>
                     <div class="icon_box" item-start>
                         <img src="assets/imgs/ic_password.png">
                     </div>
-                    <ion-input type="text" placeholder="{{'retailer_id' | translate}}" ngModel name="retailer_id" required minlength="6"></ion-input>
+                    <ion-input type="text" placeholder="{{'retailer_id' | translate}}" ngModel name="retailer_id" required></ion-input>
                 </ion-item>              
             </ion-list>
             <button text-uppercase ion-button block class="btn" type="submit" [disabled]="!f.valid"> {{'sign_up' | translate}}</button>
